@@ -17,18 +17,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <?php
 if (isset($_GET['num1']) &&
 isset($_GET['num2'])) {
@@ -46,4 +34,5 @@ isset($_GET['num2'])) {
  } else {
         echo "<p>Please provide both numbers in the URL sing GET method.</p>";
     }
+
 ?>
